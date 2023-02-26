@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "frequency-transformation-and-analysis"
+version = "0.1.0"
+description = ""
+authors = ["BaptisteZloch <bzloch@hotmail.fr>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.11"
+EMD-signal = "^1.4.0"
+scipy = "^1.8.0"
+statsmodels = "^0.13.5"
+numpy = "^1.24.2"
+pandas = "^1.5.3"
+PyWavelets = "^1.4.1"
+MFDFA = "^0.4.3"
+kucoin-python = "^1.0.11"
+matplotlib = "^3.7.0"
+plotly = "^5.13.1"
+seaborn = "^0.12.2"
+nbformat = "^5.7.3"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.1.0"
+ipykernel = "^6.21.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
